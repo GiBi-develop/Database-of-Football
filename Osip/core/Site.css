@@ -1,0 +1,74 @@
+html {
+    background: url(2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.form_trainer{
+    top: 6%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;}
+
+#Navigation{
+    width: 100%;
+}
+
+.Navigation{
+    height: 50px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+.Navigation li 	{
+    height: auto;
+    width: 20%;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font:12px "Bonveno", "Century Gothic";
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+    border-radius: 3px;
+    margin-left: 0px;
+}
+
+.Navigation a{
+    padding: 13px;
+    text-decoration: none;
+    color:#333;
+    text-shadow: 0 1px #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+.Navigation li ul{
+    display: none;
+    height: auto;
+    width: auto;
+    margin-left: -11px;
+    padding: 0;
+}
+
+.Navigation li:hover ul{
+    display: flex;
+}
+
+.navbar li ul li {
+    background-color:#eee;
+    border: 1px solid #ccc;
+}
+
+.Navigation li:hover, a:hover {
+    background: #e8e8e8;
+}
